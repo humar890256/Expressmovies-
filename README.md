@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Jisshu-Auto-filter">
+  <img src="https://i.ibb.co/hR8tDbqD/file-LC6xx7-Cv1s3-Rjt-C2fewz-AU.webp" alt="file-LC6xx7-Cv1s3-Rjt-C2fewz-AU" border="0">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/JISSHU_BOTS">Movie/Auto Filter Bot</a>
+  <a href="https://telegram.me/Worldmoviesfast_bot">Movie/Auto Filter Bot</a>
 </h1>
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 

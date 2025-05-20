@@ -31,15 +31,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002390973151'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002453284269')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002515996579'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002413402181')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002413402181'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/expressmovies_support') #Support group link ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
+request_channel = environ.get('REQUEST_CHANNEL', '0') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'True'), True)
